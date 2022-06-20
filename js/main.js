@@ -15,7 +15,7 @@ while (palabra != 'ESC'){
     if (palabra2 == 'ESC'){
         break;
     }
-    palabra = palabra + palabra;
+    palabra = palabra + palabra2;
  
 }
 alert("Su palabra final es " + palabra)
