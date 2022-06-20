@@ -27,3 +27,8 @@ let cantidad = parseInt(prompt("Ingresar un numero"));
 for(let i = 0;i < cantidad; i++){
     alert("Hola" + (i+1));
 }
+
+
+
+
+  
