@@ -15,7 +15,7 @@ while (palabra != 'ESC'){
     if (palabra2 == 'ESC'){
         break;
     }
-    palabra = palabra + palabra2;
+    palabra = palabra + palabra;
  
 }
 alert("Su palabra final es " + palabra)
@@ -27,3 +27,8 @@ let cantidad = parseInt(prompt("Ingresar un numero"));
 for(let i = 0;i < cantidad; i++){
     alert("Hola" + (i+1));
 }
+
+
+
+
+  
